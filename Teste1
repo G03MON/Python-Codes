@@ -1,0 +1,9 @@
+x = 12 #atribui um valor a variável x
+nome = 'aluno' #atribui um valor a variável nome
+nota = 9.75 #atribui um valor a variável nota
+fez_inscricao = True #atribui um valor a variável fez_inscricao
+
+print(type(x)) #imprime o tipo de dado da variável x
+print(type(nome)) #imprime o tipo de dado da variável nome
+print(type(nota)) #imprime o tipo de dado da variável nota
+print(type(fez_inscricao)) #imprime o tipo de dado da variável fez_inscricao
