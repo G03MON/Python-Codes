@@ -1,0 +1,2 @@
+nome = input("Digite seu nome: ") #a variavel nome recebe um valor do usuário
+print(f"Olá, {nome}! Seja bem-vindo(a)!") #imprime a mensagem na tela
