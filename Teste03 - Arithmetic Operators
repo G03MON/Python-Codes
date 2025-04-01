@@ -2,8 +2,10 @@ operação_1 = 2 + 3 * 5 #atribui um valor a variável operação_1
 operação_2 = (2 + 3) * 5 #atribui um valor a variável operação_2
 operação_3 = 4 / 2 ** 2 #atribui um valor a variável operação_3
 operação_4 = 13 % 3 + 4 #atribui um valor a variável operação_4
+operação_5 = 13 // 4 (13 / 4) #atribui um valor a variável operação_5
 
 print(f"O resultado da operação 1 é: {operação_1}") #imprime o resultado da variavel operação_1 na tela
 print(f"O resultado da operação 2 é: {operação_2}") #imprime o resultado da variavel operação_2 na tela
 print(f"O resultado da operação 3 é: {operação_3}") #imprime o resultado da variavel operação_3 na tela
 print(f"O resultado da operação 4 é: {operação_4}") #imprime o resultado da variavel operação_4 na tela
+print(f"O resultado da operação 5 é: {operação_5}") #imprime o resultado da variavel operação_4 na tela
