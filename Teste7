@@ -1,0 +1,5 @@
+texto = "Aprendendo Python" # Define o valor da variável 'texto'
+
+print(texto.upper()) # Torna todos os caracteres maiúsculos
+print(texto.lower()) # Torna todos os caracteres minúsculos
+print(texto.replace("Python", "Java")) # Substitui determinados caracteres por outros
