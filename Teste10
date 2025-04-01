@@ -1,0 +1,17 @@
+# Mesmo resultado
+
+vogais = [] # Cria uma lista vazia chamada vogais
+print(f"Tipo de objeto vogais = {type(vogais)}") # Imprime o tipo do objeto vogais
+
+vogais.append('a') # Adiciona a letra 'a' à lista vogais
+vogais.append('e') # Adiciona a letra 'e' à lista vogais
+vogais.append('i') # Adiciona a letra 'i' à lista vogais
+vogais.append('o') # Adiciona a letra 'o' à lista vogais
+vogais.append('u') # Adiciona a letra 'u' à lista vogais
+
+print("     ") # Imprime uma linha em branco para separar a saída
+
+for p, x in enumerate(vogais):  # Loop que itera sobre a lista vogais
+    # enumerate(vogais) retorna pares (índice, valor) para cada elemento da lista
+    # p recebe o índice e x recebe o valor
+    print(f"Posição = {p}, valor = {x}") # Imprime a posição (índice) e o valor (vogal) de cada elemento da lista
