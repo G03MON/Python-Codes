@@ -1,0 +1,18 @@
+lista =  ['Python', 30.61, "Java", 51, ['a', 'b', 20], "maça"] # Cria uma lista com diferentes tipos de dados.
+
+print(f"Tamanho da lista = {len(lista)}") # Imprime na tela o número de elementos na lista.
+
+for i, item in enumerate(lista): # Inicia um loop for que itera sobre a lista usando enumerate() para obter o índice e o valor de cada item
+    print(f"Posição = {i}, \t valor = {item} ---> tipo individual = {type(item)}") # Imprime a posição, o valor e o tipo de cada item da lista
+
+print("\nExemplos de slices:\n") # Imprime uma linha em branco e um cabeçalho para a seção de slices
+
+print("lista[1] = ", lista[1]) # Imprime o elemento na posição 1 da lista (o segundo elemento)
+print("lista[0:2] = ", lista[0:2]) # Imprime um slice da lista do índice 0 até o índice 2 (excluindo o índice 2)
+print("lista[:2] = ", lista[:2]) # Imprime um slice da lista do início até o índice 2 (excluindo o índice 2)
+print("lista[3:5] = ", lista[3:5]) # Imprime um slice da lista do índice 3 até o índice 5 (excluindo o índice 5)
+print("lista[3:6] = ", lista[3:6]) # Imprime um slice da lista do índice 3 até o índice 6 (excluindo o índice 6)
+print("lista[3:] = ", lista[3:]) # Imprime um slice da lista do índice 3 até o final da lista
+print("lista[-2] = ", lista[-2]) # Imprime o segundo elemento a partir do final da lista
+print("lista[-1] = ", lista[-1]) # Imprime o último elemento da lista
+print("lista[4][1] = ", lista[4][1]) # Imprime o elemento na posição 1 da lista que está na posição 4 da lista principal
