@@ -1,0 +1,11 @@
+frutas = ['maça', 'banana', 'uva', 'maça'] # Cria a lista 'frutas' com 4 valores
+notas = [8.7, 9.1, 9.8, 10] # Cria a lista 'notas' com 4 valores
+
+print("maça" in frutas) # Testa se há 'maça' na lista 'frutas'
+print("abacate" in frutas) # Testa se há 'abacate' na lista 'frutas'
+print("abacate" not in frutas) # Testa se não há 'abacate' na lista 'frutas'
+print(min(frutas)) # Utiliza a função mínimo para determinar o menor valor (alfabética, sendo menor 'a' e maior 'z') na lista 'frutas'
+print(max(notas)) # Utiliza a função máximo para determinar o menor valo na lista 'notas'
+print(frutas.count("maça")) # Utiliza a função contar na lista 'frutas' contendo como parâmetro a palavra "maça"
+print(frutas + notas) # Soma o valor das duas listas 'frutas' e 'notas'
+print(2 * frutas) # Multiplica o valor da lista 'frutas' por 2
