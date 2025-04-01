@@ -1,0 +1,6 @@
+texto = "Aprendendo Python" # Define o valor da variável 'texto'
+
+print(f"Tamanho do texto = {len(texto)}") # Determina a quantidades de caracteres na variável texto
+print(f"Python in texto = {'Python' in texto}") # Faz uma comparação e determina se é verdadeira ou falsa
+print(f"Quantidade de N no texto = {texto.count('n')}") # Conta a quantidade de determinado caractere pré-definido
+print(f"As 5 primeiras letras são: {texto[0:5]}") # Mostra na tela X quandidade de caracteres de uma string
