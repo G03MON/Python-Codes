@@ -1,0 +1,11 @@
+texto = "Aprendendo Python" # Define o valor da variável 'texto'
+print(f"texto = {texto}") # Exibe o valor da variável texto na tela
+print(f"Tamanho do texto = {len(texto)}") # Conta a quantidade de caracteres na variável texto
+
+palavras = texto.split()
+# Define o valor da variável 'palavras'
+# A variável 'palavras' tem como valor a função split aplicada no valor da variável 'texto'
+# Onde é contado um string como lista, ao invés de um string por caracter
+
+print(f"palavras = {palavras}") # Exibe o valor da variável palavras na tela
+print(f"Tamanho de palavras = {len(palavras)}") # Conta a quantidade de caracteres na variável palavras
